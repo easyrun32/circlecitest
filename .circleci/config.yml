@@ -8,13 +8,15 @@ jobs:
     steps:
       - checkout
       - run:
-          command: echo $TEST
+          command: echo $TEST_VALUE
       - run:
           command: echo "hello!"
       - run:
           command: echo $NOT
       - run:
           command: npm install
+      - run:
+          command: export $TEST_VALUE
       - run:
           command: npm run script
 
