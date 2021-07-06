@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  server:
+    working_directory: ~/circlecitest/
+    docker:
+      # Must be node 14 because our docker container for user  is node 14
+      - image: circleci/node:14
+    steps:
+      - checkout
+      - run:
+          command: echo $TEST
+workflows:
+  version: 2
+  just-testing:
+    jobs:
+      - server
