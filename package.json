@@ -1,0 +1,21 @@
+{
+  "name": "circlecitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyrun32/circlecitest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/easyrun32/circlecitest/issues"
+  },
+  "homepage": "https://github.com/easyrun32/circlecitest#readme"
+}

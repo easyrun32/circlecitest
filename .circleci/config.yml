@@ -13,6 +13,10 @@ jobs:
           command: echo "hello!"
       - run:
           command: echo $NOT
+      - run:
+          command: npm install
+      - run:
+          command: npm run script
 
 workflows:
   version: 2
