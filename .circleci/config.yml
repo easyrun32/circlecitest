@@ -8,7 +8,8 @@ jobs:
     steps:
       - checkout
       - run:
-          command: echo $TEST
+          command: echo $TEST && echo $NOT_A_VARIABLE
+
 workflows:
   version: 2
   just-testing:
