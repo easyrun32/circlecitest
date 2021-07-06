@@ -15,8 +15,8 @@ jobs:
           command: echo $NOT
       - run:
           command: npm install
-      - run:
-          command: export $TEST_VALUE
+      # - run:
+      #     command: export $TEST_VALUE
       - run:
           command: npm run script
 
